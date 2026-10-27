@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.menu {
+    font-size: 25px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 25px;
+}
+
+/* Main */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 130px;
+}
+
+.intro p {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Product Grid */
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px 40px;
+}
+
+.product {
+    text-align: center;
+}
+
+/* Image Placeholder */
+
+.image {
+    background-color: #dddddd;
+    height: 500px;
+    padding: 25px;
+    text-align: left;
+    font-size: 13px;
+    color: gray;
+}
+
+/* Product Text */
+
+.product h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.product p {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Filter */
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 18px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
